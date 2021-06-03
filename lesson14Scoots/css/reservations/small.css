@@ -1,0 +1,365 @@
+/***************************************************************
+
+FONTS
+font-family: 'Cinzel', serif;
+font-family: 'Finger Paint', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Acme', sans-serif;
+font-family: 'Lexend Mega', sans-serif;
+*/
+
+/*
+COLORS
+Primary - #77A6F7 - rgb(119, 166, 247) - Sky Blue - background
+Primary - #FFFFFF - rgb(255,255,255) - white - background
+Primary - #333333 - rgb(51,51,51) - lighter black - paragraph font color
+Secondary - #00887A - rgb(0, 136, 122) - green - nav color
+Secondary - #FFCCBC - rgb(189, 183, 107) - nav color
+Secondary - #666600 - rgb(255,255,0) - yellow - for footer contrast
+
+********************************************************************/
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li a {
+    text-decoration: none;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 1);
+    /*background-color: #F5F5DC; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Banner CSS */
+
+.banner {
+    background-color: rgba(255, 255, 0, .5);
+    display: none;
+    font-size: .8rem;
+    padding: 3px;
+}
+
+.banner p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/*Header CSS */
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 166, 247);
+    padding: .5rem;
+}
+
+header div {
+    max-width: 80px;
+}
+
+header img {
+    max-width: 80%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+header ul li a {
+    text-decoration: none;
+    text-align: center;
+    color: #333333;
+    
+}
+
+header ul li:nth-child(1) {
+    font-family: 'Lexend Mega', sans-serif;
+    font-size: 1.6rem;
+    
+}
+
+header ul li:nth-child(2) {
+    font-size: .8rem;
+}
+
+header ul li:nth-child(2) a {
+    color: white;
+}
+
+
+/*Navigation CSS */
+
+nav {
+    background-color: #00887A;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li:first-child {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: .8rem;
+    font-weight: 600;
+
+}
+
+#menuText {
+    font-size: 1rem;
+
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2%;
+    text-decoration: none;
+    color: #333333;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-weight: 400;
+
+}
+
+
+/*Main Page CSS */
+
+main {  
+    min-height: 20rem;
+}
+
+main h1 {
+
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 0;
+    text-align: center;
+    color: rgb(51, 51, 51);
+
+
+}
+
+main h4 {
+    margin: 0;
+    text-align: center;
+
+    font-family: 'Poppins', sans-serif;
+
+}
+
+main p {
+    text-align: left;
+    margin: 0;
+    margin-top: 1rem;
+    font-size: small;
+}
+
+form fieldset {
+    margin: 2rem auto;
+    border: 1px solid #999;
+    border-radius: 10px;
+    width: 90%;
+    background-color: #d3E3fc;
+    padding-top: 1.5rem;
+}
+
+form legend {
+    color: #445ba9;
+    font-family: 'Poppins', sans-serif;
+    font-size: large;
+}
+
+form .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+
+form label.top,
+form div {
+    display: block;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: .8rem;
+    width: 100%;
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+    height: 2.5rem;
+    margin-top: 3px;
+    padding-left: .5rem;
+}
+
+form label.top select {
+    width: 100%;
+}
+form label.top input {
+    width: 100%;
+    
+}
+
+form label.sbs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: .75rem 0;
+    color: #555;
+}
+form label.sbs input{
+    margin-right: 5px;
+}
+
+
+/*When Field */
+
+form .whenField .inputContainer .inputInline {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+    width: 100%;
+
+}
+
+form .whenField .inputContainer .inputInline label{
+    width: 100%;
+
+}
+
+form .whenField .inputContainer .inputInline label:first-child input{
+    width: 94%;
+}
+
+form .whenField .inputContainer .inputInline label:last-child select{
+    width: 100%;
+}
+
+form .whenField .inputContainer .ageSelect{
+    width: 50%;
+}
+
+
+
+
+/* Info Field */
+
+form .infoField .inputContainer .divPersonalInfo label{
+    margin-bottom: 1rem;
+
+}
+
+form .infoField .inputContainer .radioInline {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Additional Info Field */
+
+form .addInfoField {
+    font-size: .8rem;
+}
+
+form .addInfoField .listBox {
+    width: 90%;
+    margin: 0 auto 1rem auto;
+}
+
+/* Button Field */
+
+form .buttonField {
+    background-color: white;
+    border: none;
+}
+
+form .buttonField p{
+    margin-bottom: 2rem;
+}
+
+
+form input.submitBtn {
+    display: block;
+    border: none;
+    background-color: #9c2c13;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+    margin: 0 auto 3rem auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer {
+    width: 100%;
+    background-color: #77A6F7;
+    color: white;
+    text-align: center;
+    font-size: .8rem;
+    padding: 5px 0;
+    margin: 0 auto;
+}
+
+footer ul li {
+    padding: 5px;
+}
+
+footer ul li:nth-child(2) {
+    color: yellow;
+}
+
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
