@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+
+
+/****************************
+Details:
+The font for the headlines is Lora and can be found on Google fonts
+The font list for the body copy is: Helvetica, Arial, sans-serif
+The blue color is #6495ED.
+The background color used for <main> and the color of the text on the blue sidebar is #FAEBD7
+Navigation links should behave thus: normal and visited: #FAEBD7 and no underline , active: #DEB887, hover: white and underlined
+Other page links should behave thus: normal and visited: #6495ED and no underline , active: #DEB887, hover: underlined
+Article title links should behave thus: normal and visited: black and no underline , active: #DEB887, hover: #6495ED and underlined
+You should be able to do this without modifying the html. Have that as your goal. If you do end up changing the .html file make sure to submit it with your css!
+
+*/
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+div{
+    width: 100%;
+
+}
+
+header{
+    background-color: #6495ED;
+    padding: 1rem;
+    text-align: right;
+    
+}
+
+h1, h2 {
+    font-family: 'Lora', serif;
+
+}
+
+header h1 a, header nav ul li a, header h1 a:visited, header nav ul li a:visited {
+    text-decoration: none;
+    color: #FAEBD7;
+    
+}
+
+header h1 a:active, header nav ul li a:active {
+    color: #DEB887;
+}
+
+header h1 a:hover, header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    text-align: right;
+
+}
+header ul li {
+    margin-top: .5rem;
+}
+
+
+main {
+    background-color: #FAEBD7;
+    color: black;
+    padding-top: 1rem;
+    font-family: helvetica, arial, sans-serif;
+}
+main article {
+    width: 76%;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 3px;
+    padding: 6%;
+    margin-bottom: 2rem;
+
+}
+main .post-date {
+    color: rgba(0, 0, 0, .5);
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+main article img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 4rem;
+}
+main article p {
+    font-size: .9rem;
+}
+
+main article h2 a, main article h2 a:visited {
+    text-decoration: none;
+    color: rgb(0,0,0);
+    font-family: 'Lora', serif;
+
+}
+
+main article h2 a:active {
+    color: #DEB887;
+
+}
+
+main article h2 a:hover {
+    color: #6495ED;
+    text-decoration: underline;
+
+}
+
+main p a, main p a:visited {
+    color: #6495ED;
+    text-decoration: none;
+    font-family: helvetica, arial, sans-serif;
+
+}
+
+main p a:active {
+    color: #DEB887;
+
+}
+
+main p a:hover {
+    text-decoration: underline;
+
+}
+
+
+
+@media only screen and (min-width: 35em) {
+
+    body div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    main article {
+        width: 60%;
+        margin-top: 3rem;
+        margin-bottom: 5rem;
+    }
+
+    main article img{
+        max-width: 400px;
+    }
+
+    main article p {
+        font-size: 1rem;
+    }
+
+
+
+
+
+}
+
+
+
+
+
