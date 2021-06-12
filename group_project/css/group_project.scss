@@ -1,0 +1,18 @@
+// color palette - these colors will be the color swatches of the Colors section
+$color-1: #74acdf; // Argentina flag blue
+$color-2: #0a2342; // Dark Blue
+$color-3: #fcba04; // Argentina flag gold
+$color-4: #e6e6e6; // light grey
+$color-5: #ffffff; // white
+
+// additional colors
+
+$success: #5e0b15; // Argentina flag brown
+$alert: $color-3; // Dark Blue
+
+//Header
+body {
+    
+    background-color: black;
+
+}

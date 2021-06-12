@@ -1,0 +1,87 @@
+
+src/css/style-guide.css
+    1:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+    3:12  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+   11:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+   25:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+   27:12  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  113:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  115:12  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  118:5   ✖  Expected single space after ">"                                                                                           selector-combinator-space-after       
+  118:5   ✖  Expected single space before ">"                                                                                          selector-combinator-space-before      
+  123:7   ✖  Expected single space after ">"                                                                                           selector-combinator-space-after       
+  123:7   ✖  Expected single space before ">"                                                                                          selector-combinator-space-before      
+  129:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  131:12  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  171:1   ✖  Expected selector "p a" to come before selector ".cd-main-nav li a"                                                       no-descending-specificity             
+  183:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  185:9   ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  246:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  248:7   ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  257:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  259:6   ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  384:1   ✖  Expected selector "select" to come before selector "select:focus"                                                         no-descending-specificity             
+  386:12  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  386:21  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  395:36  ✖  Unexpected whitespace at end of line                                                                                      no-eol-whitespace                     
+  417:1   ✖  Unexpected duplicate selector "body", first used at line 6                                                                no-duplicate-selectors                
+  422:1   ✖  Expected selector "a" to come before selector ".cd-main-nav li a"                                                         no-descending-specificity             
+  422:1   ✖  Expected selector "a" to come before selector "p a"                                                                       no-descending-specificity             
+  432:1   ✖  Expected selector "select" to come before selector "select:focus"                                                         no-descending-specificity             
+  437:1   ✖  Unexpected duplicate selector "header", first used at line 30                                                             no-duplicate-selectors                
+  456:9   ✖  Expected double colon pseudo-element notation                                                                             selector-pseudo-element-colon-notation
+  463:1   ✖  Unexpected duplicate selector ".cd-logo", first used at line 34                                                           no-duplicate-selectors                
+  499:1   ✖  Expected selector ".cd-nav-trigger span" to come before selector ".nav-is-visible .cd-nav-trigger span"                   no-descending-specificity             
+  499:1   ✖  Expected selector ".cd-nav-trigger span" to come before selector ".cd-buttons .cd-box:nth-of-type(2) span"                no-descending-specificity             
+  499:1   ✖  Unexpected duplicate selector ".cd-nav-trigger span", first used at line 71                                               no-duplicate-selectors                
+  512:1   ✖  Expected selector ".cd-nav-trigger span::before" to come before selector ".nav-is-visible .cd-nav-trigger span::before"   no-descending-specificity             
+  512:1   ✖  Unexpected duplicate selector ".cd-nav-trigger span::before, .cd-nav-trigger span::after", first used at line 87          no-duplicate-selectors                
+  513:1   ✖  Expected selector ".cd-nav-trigger span::after" to come before selector ".nav-is-visible .cd-nav-trigger span::after"     no-descending-specificity             
+  518:3   ✖  Expected empty line before comment                                                                                        comment-empty-line-before             
+  532:1   ✖  Expected selector ".cd-nav-trigger span::before" to come before selector ".nav-is-visible .cd-nav-trigger span::before"   no-descending-specificity             
+  540:1   ✖  Expected selector ".cd-nav-trigger span::after" to come before selector ".nav-is-visible .cd-nav-trigger span::after"     no-descending-specificity             
+  554:1   ✖  Unexpected duplicate selector ".cd-main-nav", first used at line 46                                                       no-duplicate-selectors                
+  572:1   ✖  Unexpected duplicate selector ".cd-main-nav li a", first used at line 51                                                  no-duplicate-selectors                
+  609:14  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  609:19  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  651:1   ✖  Expected selector ".cd-download" to come before selector ".no-touch .cd-download:hover"                                   no-descending-specificity             
+  651:1   ✖  Unexpected duplicate selector ".cd-download", first used at line 104                                                      no-duplicate-selectors                
+  666:1   ✖  Expected selector ".cd-download span" to come before selector ".nav-is-visible .cd-nav-trigger span"                      no-descending-specificity             
+  666:1   ✖  Expected selector ".cd-download span" to come before selector ".cd-buttons .cd-box:nth-of-type(2) span"                   no-descending-specificity             
+  666:1   ✖  Unexpected duplicate selector ".cd-download span", first used at line 76                                                  no-duplicate-selectors                
+  678:31  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  678:53  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  679:28  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  679:50  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  680:23  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  680:45  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  683:1   ✖  Expected selector ".cd-download span::before" to come before selector ".nav-is-visible .cd-nav-trigger span::before"      no-descending-specificity             
+  683:1   ✖  Expected selector ".cd-download span::before" to come before selector ".nav-is-visible .cd-nav-trigger span::before"      no-descending-specificity             
+  683:1   ✖  Unexpected duplicate selector ".cd-download span::before", first used at line 82                                          no-duplicate-selectors                
+  701:31  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  702:28  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  703:23  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  730:1   ✖  Expected selector "h1" to come before selector "main>h1"                                                                  no-descending-specificity             
+  736:1   ✖  Expected selector "h1" to come before selector "main>h1"                                                                  no-descending-specificity             
+  740:15  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  743:1   ✖  Unexpected duplicate selector "main>h1", first used at line 118                                                           no-duplicate-selectors                
+  743:5   ✖  Expected single space after ">"                                                                                           selector-combinator-space-after       
+  743:5   ✖  Expected single space before ">"                                                                                          selector-combinator-space-before      
+  760:7   ✖  Expected single space after ">"                                                                                           selector-combinator-space-after       
+  760:7   ✖  Expected single space before ">"                                                                                          selector-combinator-space-before      
+  777:8   ✖  Expected double colon pseudo-element notation                                                                             selector-pseudo-element-colon-notation
+  836:16  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  853:18  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  859:18  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  865:18  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+  889:1   ✖  Expected selector ".cd-colors li" to come before selector ".cd-branding ul:last-of-type li"                               no-descending-specificity             
+  896:1   ✖  Expected selector ".cd-colors li:nth-of-type(2n)" to come before selector ".cd-branding ul:last-of-type li"               no-descending-specificity             
+  926:12  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+ 1014:3   ✖  Unexpected empty line before rule                                                                                         rule-empty-line-before                
+ 1040:11  ✖  Expected a leading zero                                                                                                   number-leading-zero                   
+ 1050:1   ✖  Expected selector ".cd-icons li" to come before selector ".cd-branding ul:last-of-type li"                                no-descending-specificity             
+ 1050:1   ✖  Expected selector ".cd-icons li" to come before selector ".cd-colors li:nth-of-type(2n)"                                  no-descending-specificity             
+ 1050:1   ✖  Unexpected duplicate selector ".cd-icons li", first used at line 251                                                      no-duplicate-selectors                
+ 1106:3   ✖  Unexpected empty line before comment                                                                                      comment-empty-line-before             
+ 1114:1   ✖  Unexpected missing end-of-source newline                                                                                  no-missing-end-of-source-newline
+

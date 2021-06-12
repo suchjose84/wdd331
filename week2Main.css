@@ -1,0 +1,14 @@
+
+[class="help"]::before {content: "("}
+
+[class="help"]::after {content: ")"}
+
+fieldset > p:nth-child(n+4) {display: none;}
+
+fieldset[title=fieldset2] > p + p {
+    background-color: red;
+}
+
+fieldset:nth-of-type(2) > p + p {
+    background-color: green;
+}
